@@ -1,5 +1,5 @@
 .banner {
-  background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2018/08/10-airship-002-min.jpg?fit=2500%2C1669")
+  background: url("https://news.airbnb.com/wp-content/uploads/sites/4/2018/08/10-airship-002-min.jpg?w=2048")
     center center;
   height: 50vh;
   position: relative;
@@ -8,6 +8,7 @@
 .banner_info {
   background-color: black;
   color: white;
+  /* padding-top: 20vh; */
   padding-top: 25vh;
   padding-left: 50px;
   padding-right: 50px;
@@ -23,6 +24,10 @@
   font-weight: 600;
 }
 
+/* .banner_info > h1 {
+  font-size: 400% !important;
+} */
+
 .banner_info > h5 {
   margin-top: 10px;
 }
@@ -35,7 +40,7 @@
 .banner_search {
   display: flex;
   flex-direction: column;
-  outline-width: 0;
+  /* position: relative; */
 }
 
 .banner_searchButton {
